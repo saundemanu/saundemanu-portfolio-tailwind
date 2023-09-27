@@ -6,28 +6,46 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Texas Weddings",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Redesgined Endpoints on vendor portals and added cosmetic fixes to site.",
+    image: "/texasweddings.png",
+    github: "",
+    link: "https://texasweddings.com",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "C File Copy",
+    description:
+      "A simple command line file copying utility written entirely in C",
+    image: "/cfilecopy.png",
+    github: "https://github.com/saundemanu/C-File-Copy",
+    link: "",
+  },
+  
+  {
+    name: "Tanks A Lot",
+    description:
+      "Java-Based Splitscreen top-down shooter game. Support for custom maps and levels",
+    image: "/tanksalot.gif",
+    github: "https://github.com/saundemanu/Tanks-a-Lot",
+    link: "/tanksalot.jar",
   },
   {
-    name: "Kator Family Photos",
+    name: "X-Code Interpreter",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Code Interpreter for unique X-Code language written in Java, emulating the compilation path of java compilers and the JVM",
+    image: "/xcode.png",
+    github: "https://https://github.com/saundemanu/X-Code-Interpreter",
+    link: "",
   },
+  {
+    name: "SFSU Quad (depreciated)",
+    description:
+      "Well documented website to facilitate safe buying and selling of items and services on campus for SFSU students.",
+    image: "/SFSUQUAD.png",
+    github: "https://github.com/saundemanu/SFSUQUAD",
+    link: "",
+  }
 ]
 
 const ProjectsSection = () => {
@@ -45,7 +63,7 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.link}>
+                    <Link href={project.link || project.github}>
                       <Image
                         src={project.image}
                         alt=""
@@ -61,18 +79,22 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
+                      {project.github && (
                       <Link href={project.github} target="_blank">
                         <BsGithub
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
+                       )}
+                      {project.link && (
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
+                      )}
                     </div>
                   </div>
                 </div>

@@ -21,7 +21,7 @@ const Footer = () => {
               size={30}
             />
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/hqasmei"
             rel="noreferrer"
             target="_blank"
@@ -30,10 +30,10 @@ const Footer = () => {
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
-          </a>
+          </a> */}
 
           <a
-            href="https://www.linkedin.com/in/hosnaqasmei/"
+            href="https://www.linkedin.com/in/csemanuel42/"
             rel="noreferrer"
             target="_blank"
           >
@@ -42,12 +42,22 @@ const Footer = () => {
               size={30}
             />
           </a>
-          <a
+          {/* <a
             href="https://www.youtube.com/channel/UCQBMkSDgbxDb8usMeXmOZyA"
             rel="noreferrer"
             target="_blank"
           >
             <AiOutlineYoutube
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a> */}
+          <a
+          href="http://emanuelsaundersintership.wordpress.com"
+          rel="nonreferrer"
+          target="_blank"
+          >
+            <AiOutlineWordpress
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />

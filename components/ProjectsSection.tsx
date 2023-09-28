@@ -3,48 +3,57 @@ import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import frameworks from "./frameworks"
 
 const projects = [
   {
     name: "Texas Weddings",
-    description:
-      "Redesgined Endpoints on vendor portals and added cosmetic fixes to site.",
+    description: "A vendor portal with enhanced functionality and a polished user interface for seamless wedding planning.",
     image: "/texasweddings.png",
+    framework: [frameworks.flutter, frameworks.php, frameworks.mysql ],
     github: "",
     link: "https://texasweddings.com",
   },
   {
+    name: "Flooded Grounds",
+    description: "A thrilling third-person Sci-Fi survival/horror game set in a futuristic space-ship",
+    image: "/floodedgrounds.png",
+    framework: [ frameworks.csharp, frameworks.unity ],
+    github: "https://github.com/andacrew/flooded-grounds-2.0",
+    link: "",
+  },
+  {
     name: "Tanks A Lot",
-    description:
-      "Java-Based Splitscreen top-down shooter game. Support for custom maps and levels",
+    description: "Engage in thrilling tank battles in this Java-based split-screen top-down shooter game with support for custom maps.",
     image: "/tanksalot.gif",
+    framework: [frameworks.java],
     github: "https://github.com/saundemanu/Tanks-a-Lot",
     link: "/tanksalot.jar",
   },
   {
     name: "C File Copy",
-    description:
-      "A simple command line file copying utility written entirely in C",
+    description: "Efficiently copy files from the command line with this lightweight utility written entirely in C.",
     image: "/cfilecopy.png",
+    framework: [frameworks.C],
     github: "https://github.com/saundemanu/C-File-Copy",
     link: "",
   },
   {
     name: "X-Code Interpreter",
-    description:
-      "Code Interpreter for unique X-Code language written in Java, emulating the compilation path of java compilers and the JVM",
+    description: "Interpret code written in the unique X-Code language using a Java-based interpreter emulating the Java compilation process.",
     image: "/xcode.png",
+    framework: [frameworks.java],
     github: "https://github.com/saundemanu/X-Code-Interpreter",
     link: "",
   },
   {
-    name: "SFSU Quad (depreciated)",
-    description:
-      "Well documented website to facilitate safe buying and selling of items and services on campus for SFSU students.",
+    name: "SFSU Quad (deprecated)",
+    description: "A platform facilitating safe transactions for buying and selling items and services on campus, designed for SFSU students.",
     image: "/SFSUQUAD.png",
+    framework: [frameworks.python, frameworks.flask, frameworks.mysql],
     github: "https://github.com/saundemanu/SFSUQUAD",
     link: "",
-  }
+  },
 ]
 
 const ProjectsSection = () => {
@@ -73,7 +82,8 @@ const ProjectsSection = () => {
                     </Link>
                   </div>
                   <div className="mt-8 md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
+                    <h1 className="text-4xl font-bold underline mb-6">{project.name}</h1>
+                      <div className="flex flex-row space-x-1 mb-2"> {project.framework} </div> 
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                     </p>

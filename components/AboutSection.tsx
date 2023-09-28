@@ -52,17 +52,17 @@ const AboutSection = () => {
             <br />
             I find joy in problem-solving, often immersing myself in puzzle games. 
             Additionally, I like to delve into personal computer hardware research. 
-            On a more relaxed note, I play guitar and occasionally dabble in hobbyist DJing.
+            On a more relaxed note, I play guitar and occasionally dabble in hobbyist DJing and enjoy videos of pandas.
             </p>
             <br />
             <p>
               I firmly believe that learning never stops {" "}
               <span className="font-bold text-teal-500">
-                growth doesn't stop either
+                growth never stops either
               </span>{" "}
-              , even in the face of adversity. 
+              , even in the face of adversity. Sometimes, it's not always a linear path, but it's a path forward nonetheless.
               That&#39;s what I strive to do, grow. I'm on a mission to dive headfirst into the world of technology and all its wonders. 
-              I'm genuinely thrilled to discover where this journey will lead my career. Plus, I'm always up for new adventures!🙂
+              I'm genuinely thrilled to discover where this journey will lead my career. Plus, I'm always up for new adventures!🐼
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -79,13 +79,13 @@ const AboutSection = () => {
                 )
               })}
             </div>
-            {/* <Image
-              src="/hello.jpg"
-              alt=""
-              width={325}
-              height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0 object-center"
-            /> */}
+            <Image
+              src="/panda.png"
+              alt="panda"
+              width={210}
+              height={210}
+              className="hidden md:block md:relative md:top-16 md:left-32 md:z-0 object-center"
+            />
           </div>
         </div>
       </div>

@@ -26,6 +26,7 @@ const HeroSection = () => {
             </span>
             based in Pennsylvania. Creating unique solutions to complex problems with software. 
           </p>
+          <div className="flex justify-center md:justify-start md:space-x-4 md:mx-0">
           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
@@ -37,6 +38,20 @@ const HeroSection = () => {
           >
             Projects
           </Link>
+          <a
+            href="/EmanuelSaundersResume.pdf"
+            download="EmanuelSaundersResume.pdf"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            >
+          Download Resume
+          </a>
+          <a
+            href="https://emanuelsaundersintership.wordpress.com"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            >
+          Blog
+          </a>
+          </div>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">

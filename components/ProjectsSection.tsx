@@ -14,15 +14,6 @@ const projects = [
     link: "https://texasweddings.com",
   },
   {
-    name: "C File Copy",
-    description:
-      "A simple command line file copying utility written entirely in C",
-    image: "/cfilecopy.png",
-    github: "https://github.com/saundemanu/C-File-Copy",
-    link: "",
-  },
-  
-  {
     name: "Tanks A Lot",
     description:
       "Java-Based Splitscreen top-down shooter game. Support for custom maps and levels",
@@ -31,11 +22,19 @@ const projects = [
     link: "/tanksalot.jar",
   },
   {
+    name: "C File Copy",
+    description:
+      "A simple command line file copying utility written entirely in C",
+    image: "/cfilecopy.png",
+    github: "https://github.com/saundemanu/C-File-Copy",
+    link: "",
+  },
+  {
     name: "X-Code Interpreter",
     description:
       "Code Interpreter for unique X-Code language written in Java, emulating the compilation path of java compilers and the JVM",
     image: "/xcode.png",
-    github: "https://https://github.com/saundemanu/X-Code-Interpreter",
+    github: "https://github.com/saundemanu/X-Code-Interpreter",
     link: "",
   },
   {

@@ -6,13 +6,22 @@ const skills = [
   { skill: "Python" },
   { skill: "PHP" },
   { skill: "C#" },
+  { skill: "Java" },
+  { skill: "Python" },
+  { skill: "PHP" },
+  { skill: "C#" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "React" },
   { skill: "SQL" },
   { skill: "NoSQL" },
   { skill: "Redis" },
+  { skill: "SQL" },
+  { skill: "NoSQL" },
+  { skill: "Redis" },
   { skill: "Next.js" },
+  { skill: "Flutter" },
+  { skill: "Dart" },
   { skill: "Flutter" },
   { skill: "Dart" },
   { skill: "Tailwind CSS" },
@@ -36,13 +45,17 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Emanuel and I am a{" "}
+              Hi, my name is Emanuel and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
               based in Pennsylvania, particularly fond of backend systems.
+              based in Pennsylvania, particularly fond of backend systems.
             </p>
             <br />
             <p>
+              I graduated from San Francisco State University in 2020
+              with a BS in Computer Science and am currently Working as an Software Engineering Intern at Texas Weddings.
               I graduated from San Francisco State University in 2020
               with a BS in Computer Science and am currently Working as an Software Engineering Intern at Texas Weddings.
             </p>
@@ -56,6 +69,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
+              I firmly believe that learning never stops {" "}
               I firmly believe that learning never stops {" "}
               <span className="font-bold text-teal-500">
                 growth never stops either

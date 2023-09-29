@@ -61,7 +61,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-            Here is a glimpse into some of my interests: 
+            Here's a glimpse into some of my interests: 
             <br />
             I find joy in problem-solving, often immersing myself in puzzle games. 
             Additionally, I like to delve into personal computer hardware research. 

@@ -17,7 +17,7 @@ const projects = [
   {
     name: "Flooded Grounds",
     description: "A thrilling third-person Sci-Fi survival/horror game set in a futuristic space-ship",
-    image: "/floodedgrounds.png",
+    image: "/floodedgroundsdemo.gif",
     framework: [ frameworks.csharp, frameworks.unity ],
     github: "https://github.com/andacrew/flooded-grounds-2.0",
     link: "",

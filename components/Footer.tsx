@@ -32,7 +32,7 @@ const Footer = () => {
           </a>
           <a
           href="http://emanuelsaundersintership.wordpress.com"
-          rel="nonreferrer"
+          rel="noreferrer"
           target="_blank"
           >
             <BsWordpress

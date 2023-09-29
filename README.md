@@ -1,12 +1,8 @@
 # Tailwind CSS and Next.js Portfolio
 
-This is a template for creating a portfolio with Tailwind CSS and Next.js.
+This simple portfolio is based on Honsa Qasmei's next.js/tailwind portfolio template.
 
 ![Portfolio Demo](demo/demo.gif)
-
-## How it works
-
-Fork or download the repo and change whatever you need to change for your needs.
 
 ## Running Locally
 

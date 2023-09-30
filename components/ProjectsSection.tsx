@@ -15,6 +15,14 @@ const projects = [
     link: "https://texasweddings.com",
   },
   {
+    name: "Government Shutdown Tracker",
+    description: "Simple timer to countdown seconds till the government shutdown",
+    image: "/shutdowntracker.gif",
+    framework: [frameworks.nextjs, frameworks.javascript, frameworks.tailwind],
+    github: "https://github.com/saundemanu/GovernmentShutdownTracker",
+    link: "https://government-shutdown-tracker.vercel.app",
+  },
+  {
     name: "Flooded Grounds",
     description: "A thrilling third-person Sci-Fi survival/horror game set in a futuristic space-ship",
     image: "/floodedgroundsdemo.gif",

@@ -4,6 +4,7 @@ import {
   AiOutlineLinkedin,
 } from "react-icons/ai"
 import { BsWordpress } from "react-icons/bs"
+import frameworks from "./frameworks"
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-        🐼 © 2023 Emanuel Saunders<a href="/" className="hover:underline"></a>
+        🐼 © 2023 Emanuel Saunders<a href="/" className="hover:underline"></a> {[frameworks.nextjs, frameworks.tailwind, frameworks.javascript]}
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://github.com/saundemanu" rel="noreferrer" target="_blank">

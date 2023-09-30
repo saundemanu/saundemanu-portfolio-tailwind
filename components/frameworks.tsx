@@ -1,6 +1,7 @@
-import {  BiLogoPython, BiLogoJavascript, BiLogoJava, BiLogoPhp, BiLogoFlutter, BiLogoCPlusPlus, BiLogoFlask, BiLogoUnity } from "react-icons/bi"
+import {  BiLogoPython, BiLogoJavascript, BiLogoJava, BiLogoPhp, BiLogoFlutter, BiLogoCPlusPlus, BiLogoFlask, BiLogoUnity, BiLogoTailwindCss } from "react-icons/bi"
 import { DiMysql } from "react-icons/di"
 import { SiCsharp } from "react-icons/si"
+import { TbBrandNextjs } from "react-icons/tb"
 
 const frameworks = {
     java: <BiLogoJava size={30} aria-label="Java"  className="hover:-translate-y-1 transition-transform cursor-pointer" />,
@@ -21,7 +22,12 @@ const frameworks = {
 
     unity: <BiLogoUnity size={30} aria-label="Unity" className="hover:-translate-y-1 transition-transform cursor-pointer" />, 
 
-    csharp: <SiCsharp size={30} aria-label="C#" className="hover:-translate-y-1 transition-transform cursor-pointer"/>
+    csharp: <SiCsharp size={30} aria-label="C#" className="hover:-translate-y-1 transition-transform cursor-pointer"/>,
+    
+    tailwind: <BiLogoTailwindCss size={30} aria-label="TailwindCSS" className="hover:-translate-y-1 transition-transform cursor-pointer"/>,
+
+    nextjs: <TbBrandNextjs size={30} aria-label="Next.js" className="hover:-translate-y-1 transition-transform cursor-pointer"/>
+
   }
 
   export default frameworks;

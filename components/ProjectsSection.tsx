@@ -15,6 +15,14 @@ const projects = [
     link: "https://texasweddings.com",
   },
   {
+    name: "Chatty",
+    description: "Websocket based chat-client written in python",
+    image: "",
+    framework: [frameworks.python],
+    github: "https://github.com/saundemanu/chatty",
+    link: "",
+  },
+  {
     name: "Government Shutdown Tracker",
     description: "Simple timer to countdown seconds till the government shutdown",
     image: "/shutdowntracker.gif",
